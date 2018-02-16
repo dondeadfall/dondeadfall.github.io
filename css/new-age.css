@@ -181,13 +181,16 @@ section.soundcloud {
 section.soundcloud h2 {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 1.8rem;
-  padding-bottom: 1.8rem;
+  padding-top: .25rem;
+  padding-bottom: 1.5rem;
   font-size: 1.8rem;}
   @media (min-width: 992px) {
   section.soundcloud h2 {
-    font-size: 3rem;
-  }}
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    font-size: 3rem;} }}
 
 section.features .section-heading {
   margin-bottom: 100px; }
