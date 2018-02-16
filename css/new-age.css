@@ -39,17 +39,11 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 20px;
-}
-
+  margin-bottom: 20px; }
 section {
-  padding: 100px 0;
-}
-section h2 {
-  font-size: 50px;
-}
+  padding: 3rem;}
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -79,8 +73,7 @@ section h2 {
   font-size: 11px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase;}
 #mainNav .navbar-nav > li > a.active {
   color: #FF3D00 !important;
   background-color: #212121;
@@ -139,8 +132,7 @@ section h2 {
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 72px;
   color: white;
   background: url("../img/bg-pattern.png"), #7b4397;
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #051b7f, #dc2430);
@@ -186,8 +178,8 @@ section.soundcloud {
   position: relative;
 }
 section.soundcloud h2 {
-  margin-top: 0; 
-  padding-bottom: 2rem;
+  margin-top: 0px;
+  padding: 0px;
   font-size: 3rem;}
   @media (min-width: 992px) {
   section.soundcloud h2 {
