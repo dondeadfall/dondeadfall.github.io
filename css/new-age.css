@@ -175,11 +175,14 @@ header.masthead .device-container .screen img {
 }
 
 section.soundcloud {
+  text-align: center;
   position: relative;
 }
 section.soundcloud h2 {
-  margin: 0px;
-  padding: 1.8rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
   font-size: 1.8rem;}
   @media (min-width: 992px) {
   section.soundcloud h2 {
@@ -262,7 +265,7 @@ section.cta .overlay {
 section.contact {
   position: relative;
   top: auto;
-  padding: auto;
+  padding-top: 3rem;
   text-align: center;
 }
 section.contact h2 {
