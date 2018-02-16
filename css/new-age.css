@@ -134,9 +134,9 @@ header.masthead {
   width: 100%;
   padding-top: 72px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #051b7f, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #051b7f, #dc2430);
+  background: url("../img/bg-pattern.png"), white;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(#212121, #FF3D00);
+  background: url("../img/bg-pattern.png"), linear-gradient(#212121, #FF3D00);
 }
 header.masthead .header-content {
   max-width: 500px;
@@ -177,13 +177,18 @@ header.masthead .device-container .screen img {
 section.soundcloud {
   text-align: center;
   position: relative;
+  width: 100%;
+  background: url("../img/bg-pattern.png"), red;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(#FF3D00, #212121);
+  background: url("../img/bg-pattern.png"), linear-gradient(#FF3D00, #212121);
 }
 section.soundcloud h2 {
+  text-shadow: 1px 1px 1px black;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: .25rem;
   padding-bottom: 1.5rem;
-  font-size: 1.8rem;}
+  font-size: 1rem;}
   @media (min-width: 992px) {
   section.soundcloud h2 {
     margin-top: 0px;
