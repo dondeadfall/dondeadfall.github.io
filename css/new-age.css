@@ -233,6 +233,15 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+center-block {
+  float: none;
+}
+
+social-button {
+  display: block;
+  margin: auto;
+}
+
 section.cta {
   position: relative;
   padding: 250px 0;
@@ -320,6 +329,16 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
+small-div {
+  margin: 10px;
+  padding: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+margin-small {
+  margin-top: 20px;
+}
 footer {
   position: relative;
   top: auto;
